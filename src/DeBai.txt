@@ -1,0 +1,49 @@
+yêu cầu kiểm soát ví : ( class ví cá nhân)
+tổng tiền mang đi đầu ngày  nhập từ bàn phím :
+từ ngày thứ 2 trở di sẽ bằng số tổng tiền còn lại của ngày hôm trước .
+
+
+Các khoản tiền chi tiêu trong ngày nhập từ bàn phím gồm có
+
+Tiền xăng xe :
+Tiền mua đồ :
+Phát sinh đi lại :
+
+Viết 1 chương trình in ra tổng kết ngày, tổng kết tháng ,
+ tổng kết quý ,
+ tổng kết năm 
+
+(Class ví gia đình ):
+Chi tiêu trong gia đình nhập từ bàn phím :
+
+Ngày thứ 2 trở đi sẽ bẳng tổng số tiền còn lại từ ngày hôm trước 
+
+Tổng thu : Thu nhập 2 vợ chồng trong 1 tháng ( nhập từ bàn phím )
+
+Tổng chi:
+Chi phí đi lại :
+Tiền ăn uống :
+Nhu yếu phẩm : 
+Tiền ma chay hiếu hỉ cho họ hàng :
+Tiền phát sinh chi tiêu ngoài kế hoạch: 
+Tiên trả nợ :
+
+Lập 1 chuỗi danh sách người ( Tên, mối quan hệ ): 
+trong đó có thông tin về số tiền được trao tặng + nhân dịp gì: 
+
+tính toán tổng chi bằng bao nhiêu phần trăm tổng chi 
+nếu kết quả đưa ra là dưới 50% => Rất tốt 
+nếu kết quả đưa ra là dưới 70% => Chấp nhận được 
+Nếu kết quả đưa ra là >= 90% => Cảnh báo 
+	trong cảnh báo sẽ đưa ra hai kiểu cảnh báo :
+		1. trường hợp thu nhập tổng 1 tháng dưới 15.000.000 VND => Cảnh báo mức sống dưới trung bình ;
+		2. trường hợp thu nhập tổng 1 tháng trên 15.000.000 VND => Cảnh báo mức chi tiêu vượt kiểm soát ;
+
+(Class nợ ):
+Ghi tổng số nợ hiện có :
+viết chương trình thực hiện yêu cầu trả phần trăm tối thiểu nợ 1 tháng 
+1.5%
+gọi 1.5% = 100% 
+trong trường hợp tháng đó không có số tiền trả thợ đủ 100% thì tiền còn thiếu sẽ được chuyển sang kì thanh toán của tháng 
+tiếp theo
+to be continue....
