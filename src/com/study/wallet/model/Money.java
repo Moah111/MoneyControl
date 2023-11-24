@@ -1,4 +1,4 @@
-package MyWallet;
+package com.study.wallet.model;
 
 import java.util.Date;
 

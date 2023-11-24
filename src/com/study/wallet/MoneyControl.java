@@ -1,4 +1,6 @@
-package MyWallet;
+package com.study.wallet;
+
+import com.study.wallet.model.Money;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
