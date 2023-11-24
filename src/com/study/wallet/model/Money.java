@@ -8,8 +8,12 @@ public class Money {
 	private float incurredCost;
 	private float bonusMoney;
 	private Date date;
-	
-	
+
+	public Money() {
+
+	}
+
+
 	public float getPetroCost() {
 		return petroCost;
 	}

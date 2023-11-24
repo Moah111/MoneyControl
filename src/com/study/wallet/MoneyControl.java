@@ -15,17 +15,17 @@ public class MoneyControl {
 		SimpleDateFormat spf = new SimpleDateFormat("dd-MM-yyyy");
 		return spf.parse(value);
 	}
-	public static void main(String[] args) throws ParseException{
-		Money today = new Money(80000, 0, 25000, 75000, new Date());
-		Money yesterday = new Money(75000, 15000, 25000, 75000, toDate("23-11-2023"));
-		List<Money> list = new ArrayList<>();
-		list.add(today);
-		list.add(yesterday);
+	public static void main(String[] args) throws ParseException {
+		List<Money> list = FileIO.read();
+
+		for (Money money: list) {
+			System.out.println(money);
+		}
+
 		System.out.println(tienXang(list));
 		System.out.println(tongTien(list));
-		
-		System.out.println(today.toString());
-		System.out.println(yesterday.toString());
+
+		FileIO.push(list);
 	}
 	public static float tienXang(List<Money> ds){
 	
